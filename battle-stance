@@ -1,0 +1,77 @@
+## Charge/Intercept ##
+
+#showtooltip
+/use [noform:1,combat]Intercept;[noform:1,nocombat]Battle Stance;[form:1,combat]Berserker Stance;Charge
+/startattack
+
+
+## Mocking Blow ##
+
+#showtooltip Mocking Blow
+/cast [stance:1]Mocking Blow;[stance:2]Battle Stance;[stance:3]Battle Stance
+/startattack
+
+
+## Mortal Strike ##
+
+#showtooltip Mortal Strike
+/cleartarget [dead]
+/targetenemy [noharm]
+/startattack
+/cast Mortal Strike
+
+
+## Thunderclap ##
+
+#showtooltip Thunder Clap
+/cleartarget [dead]
+/targetenemy [noharm]
+/startattack
+/cast Thunder Clap
+
+
+## Rend ##
+
+#showtooltip Rend
+/cleartarget [dead]
+/targetenemy [noharm]
+/startattack
+/cast Rend
+
+
+## Overpower ##
+
+#showtooltip Overpower
+/cleartarget [dead][noharm]
+/targetenemy [dead][noharm]
+/startattack
+/cast Overpower
+
+
+## Overpower ## (This will switch your stance before casting)
+
+#showtooltip Overpower
+/cleartarget [dead]
+/targetenemy [noharm]
+/startattack
+/cast Battle Stance
+/cast Overpower
+
+
+## Retaliation ##
+
+#showtooltip Retaliation
+/startattack
+/cast Battle Stance
+/cast Retaliation
+
+
+## Sunder Armor ##
+
+#showtooltip Sunder Armor
+/cleartarget [dead]
+/targetenemy [noharm]
+/cancelaura Greater Blessing of Salvation
+/cancelaura Blessing of Salvation
+/cast Sunder Armor
+/startattack
