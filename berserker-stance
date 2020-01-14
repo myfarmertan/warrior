@@ -1,0 +1,72 @@
+## Bloodthirst ##
+
+#showtooltip Bloodthirst
+/cleartarget [dead]
+/targetenemy [noharm]
+/cast [nochanneling]Bloodthirst
+/startattack
+
+
+## Whirlwind ##
+
+#showtooltip Whirlwind
+/cleartarget [dead]
+/targetenemy [noharm]
+/startattack
+/cast Whirlwind
+
+
+## Heroic Strike ##
+
+#showtooltip Heroic Strike
+/cleartarget [dead]
+/targetenemy [noharm]
+/startattack
+/cast Heroic Strike
+/stopcasting
+
+
+## Execute ##
+
+#showtooltip Execute
+/cleartarget [dead]
+/targetenemy [noharm]
+/cast Execute
+/startattack
+
+
+## Hamstring ##
+
+#showtooltip Hamstring
+/cleartarget [dead]
+/targetenemy [noharm]
+/startattack
+/cast Hamstring
+
+
+## Cleave ##
+
+#showtooltip Cleave
+/cleartarget [dead]
+/targetenemy [noharm]
+/startattack
+/cast Cleave
+/stopcasting
+
+
+## Slam ##
+
+#showtooltip Slam
+/cleartarget [dead]
+/targetenemy [noharm]
+/stopattack
+/cast Slam
+/startattack
+
+## Kick ##
+
+#showtooltip [nostance:2] Pummel; Shield Bash
+/startattack
+/cast [noworn:shield,nostance:3] Berserker Stance
+/cast [@mouseover,harm,stance:3][stance:3] Pummel
+/cast [stance:2,worn:shield] Shield Bash
