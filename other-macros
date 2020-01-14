@@ -1,0 +1,12 @@
+## Shoot ## (This will shoot whatever is equiped)
+
+#showtooltip
+/cast [worn:thrown] Throw; [worn:bow] Shoot Bow; [worn:gun] Shoot Gun; [worn:crossbow] Shoot Crossbow
+
+## Switch ## (This lets me switch my MH and OH in one click)
+
+#showtooltip
+/eq [noworn:shield] The Immovable Object
+/equipslot [noworn:shield] 16 Stormstrike Hammer
+/equipslot [worn:shield] 16 Stormstrike Hammer
+/equipslot [worn:shield] 17 Mirah's Song
