@@ -1,0 +1,60 @@
+## Taunt ##
+
+#showtooltip Taunt
+/cast [stance:1]Defensive Stance;[stance:2]Taunt;[stance:3]Defensive Stance
+/startattack
+
+
+## Challenging Shout ##
+
+#showtooltip Challenging Shout
+/startattack
+/cast Challenging Shout
+
+
+## Disarm ##
+
+#showtooltip
+/cast [stance:1]Defensive Stance;[stance:2]Disarm;[stance:3]Defensive Stance
+/run if GetTime()>(cd or 0)then cd=GetTime()+60 SendChatMessage(""..GetSpellLink(676).." on <%t>! (10s)","SAY")end
+/startattack
+
+
+## Revenge ##
+
+#showtooltip Revenge
+/cleartarget [dead]
+/targetenemy [noharm]
+/startattack
+/cast Revenge
+
+
+## Shield Bash ##
+
+#showtooltip Shield Bash
+/cleartarget [dead]
+/targetenemy [noharm]
+/startattack
+/cast Defensive Stance
+/cast Shield Bash
+
+
+## Shield Wall ##
+
+#showtooltip Shield Wall
+/equip The Immovable Object
+/equip 16 Stormstrike Hammer
+/cast Shield Wall
+/run if GetTime()>(cd or 0)then cd=GetTime()+1800 SendChatMessage("<"..GetSpellLink(871).."> (10s)!","SAY")end
+/startattack
+
+
+## Sunder Armor ##
+
+#showtooltip Sunder Armor
+/cleartarget [dead]
+/targetenemy [noharm]
+/cancelaura Greater Blessing of Salvation
+/cancelaura Blessing of Salvation
+/cast Sunder Armor
+/startattack
