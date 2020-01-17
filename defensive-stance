@@ -57,7 +57,7 @@
 
 ============================================================================================================================
 
-## Sunder Armor ##
+## Sunder Armor ## (tanking version of sunder armor)
 
 #showtooltip Sunder Armor
 /cleartarget [dead]
