@@ -1,9 +1,12 @@
+============================================================================================================================
+
 ## Charge/Intercept ##
 
 #showtooltip
 /use [noform:1,combat]Intercept;[noform:1,nocombat]Battle Stance;[form:1,combat]Berserker Stance;Charge
 /startattack
 
+============================================================================================================================
 
 ## Mocking Blow ##
 
@@ -11,6 +14,7 @@
 /cast [stance:1]Mocking Blow;[stance:2]Battle Stance;[stance:3]Battle Stance
 /startattack
 
+============================================================================================================================
 
 ## Mortal Strike ##
 
@@ -20,6 +24,7 @@
 /startattack
 /cast Mortal Strike
 
+============================================================================================================================
 
 ## Thunderclap ##
 
@@ -29,6 +34,7 @@
 /startattack
 /cast Thunder Clap
 
+============================================================================================================================
 
 ## Rend ##
 
@@ -38,6 +44,7 @@
 /startattack
 /cast Rend
 
+============================================================================================================================
 
 ## Overpower ##
 
@@ -47,6 +54,7 @@
 /startattack
 /cast Overpower
 
+============================================================================================================================
 
 ## Overpower ## (This will switch your stance before casting)
 
@@ -57,6 +65,7 @@
 /cast Battle Stance
 /cast Overpower
 
+============================================================================================================================
 
 ## Retaliation ##
 
@@ -65,13 +74,14 @@
 /cast Battle Stance
 /cast Retaliation
 
+============================================================================================================================
 
-## Sunder Armor ##
+## Sunder Armor ## (battle stance version of Sunder, see defensive stance version for tanking)
 
 #showtooltip Sunder Armor
 /cleartarget [dead]
 /targetenemy [noharm]
-/cancelaura Greater Blessing of Salvation
-/cancelaura Blessing of Salvation
 /cast Sunder Armor
 /startattack
+
+============================================================================================================================
