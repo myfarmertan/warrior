@@ -46,11 +46,11 @@
 
 ============================================================================================================================
 
-## Shield Wall ##
+## Shield Wall ## (change item names)
 
-#showtooltip Shield Wall
-/equip The Immovable Object
-/equip 16 Stormstrike Hammer
+#showtooltip Shield Wall 
+/equip <Shield name>
+/equip 16 <MH Weapon name>
 /cast Shield Wall
 /run if GetTime()>(cd or 0)then cd=GetTime()+1800 SendChatMessage("<"..GetSpellLink(871).."> (10s)!","SAY")end
 /startattack
