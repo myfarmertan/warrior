@@ -1,0 +1,100 @@
+Things I'm learned or read about Warriors in Classic Wow
+
+===============================================================================
+Tanking
+===============================================================================
+
+What talents should I use?
+For most guilds you can use the basic Deep Prot talent build. However, if you’re in a hardcore guild thats pushing the limits and you’re häving problems holding aggro, you should spec into Fury Prot. If that is still not enough, you should also start dualwielding. 
+
+Deep Prot: https://classicdb.ch/?talent#LV0xzZVZgizoeMdVo
+Impale Prot: https://classicdb.ch/?talent#LchxzhbZcZxizoeMzVo
+Fury Prot: https://classicdb.ch/?talent#LZVVuV0xoVoxfzoe
+DW Fury Prot: https://classicdb.ch/?talent#LZVV0VxxoVoxizox
+
+What abilities should I use?
+You should use Shield Slam/Bloodthirst > Revenge > Sunder Armor. Heroic Strike if you have too much rage.
+
+Shield Block should be used to proc Revenge and prevent you from suffering a crit or crushing blow. This is especially important to prevent you from dying if you are on low health.
+
+Always be ready to pop survivability cooldowns like Last Stand, Shield Wall, Lifegiving Gem or Healthstone should you get close to dying.
+
+What race should I be?
+On Alliance side, choose Human to benefit from +5 weapon skill to swords and maces. 
+On Horde side, choose Troll if you’re going to get Thunderfury, since Berserking is a valuable DPS cooldown to increase your threat. If you’re not getting Thunderfury, Orc is a good option due to +5 weapon skill on axes.
+
+How to maximize my threat?
+First and foremost, make sure you are fully consumabled and world buffed in raids. This is an absolute requirement for tanks and is the biggest increase to your threat.
+Secondly, use the correct spec depending on your guilds needs and make sure you are not messing up your rotation.
+Also stack 100 rage before every pull, so you get a head start on threat. Using DPS cooldowns should also be done on the pull, since you want to get a threat lead that your DPS wont be able to catch.
+Itemization
+Always look to pick DPS upgrades over tank upgrades. For example, pick Onyxia neck not the trinket and pick the Nefarian ring, not the neck. 
+You should be looking to pick up strong plate DPS items like Onslaught Girdle to increase your threat output, especially if you’re dualwield tanking.
+
+Weapons
+You want to have +weapon skill on your weapons. That means as a human, you should go swords/maces, as an orc axes and as a non-human/non-orc, you should use edgemaster's or aged core leather gauntlets with daggers.
+
+Going dagger is a smart option if you want to let your DPS get prio on swords/axes, however it forces you to use leather gloves, which lowers your armor. It's probably worth sacrificing one pair of good weapons for your main tank, so he doesn't have to go daggers.
+
+Stat Priority
+Prioritize threat, armor and stamina. Defense isn’t really needed, since you can use Shield Block to prevent crits and if you have high enough HP, you are not really in a risk of dying as long as the healers are doing their job.
+You can still change your gear sets between fights, on some harder hitting bosses like Chromaggus it is reasonable to use some more defense pieces compared to easier bosses.
+
+What does defense do?
+Defense increases your block, dodge and parry chances by 0.04% and also reduces the chance of being hit and crit by 0.04%. It doesn’t reduce the chance of being hit by a crushing blow.
+The defense cap is 440 defense for lvl 63 mobs.
+
+
+===============================================================================
+RAGNAROS Aggro Mechanics :anger: 
+===============================================================================
+
+::: 12/11 Update :::
+
+:fire: Wrath of Ragnaros only affects the 3 random players currently in melee range. Following the 12/11 Update it is no longer targeting the lowest GUID.
+These players will receive 1000 fire damage and be sent flying a couple yards back. Melees don't have to walk away from melee range in preparation for a WoR, but instead can continue DPSing 100% of the time. 
+
+:arrow_forward: As a warrior you can intercept back to melee every other knock. Make sure you have a good stance dance macro for that, and if you are fury/prot without Tact Mastery then anticipate the knock back by swapping to Zerk Stance a couple seconds before to have some rage available.
+
+:arrow_forward: Upon casting WoR, Ragnaros will fully reset his threat table and your tank will have to start building threat again from scrap. As a tank, you should pool rage before WoR and be ready to taunt as soon as the reset happens before unleashing a massive burst of threat with your pooled rage. 
+
+:arrow_forward: Since this new method is much more threat sensitive and you don't have to stack Fire Resist anymore to resist WoR, we advice ignoring the FR cap and instead using a balanced Fire Resist setup with threat in mind (150-250 FR).
+
+===============================================================================
+
+ONYXIA Aggro Mechanics
+
+• Phase 1 and 3
+Knock Away sends Onyxia's current target flying back a few yards and reduces their threat by -25%. https://streamable.com/jbpjk
+This mechanic means that damage dealers are at a high risk of exceeding the tank's threat after a couple Knock Aways and should be ready to use an ability to drop aggro or position in front of the boss to avoid cleaving the whole raid.
+
+:warning: Do not mistake Knock Away with Wing Buffet, another knock back ability that affects every player in a 24 yards cone in front of Onyxia but doesn't affect threat. Onyxia often uses those two skills back to back.
+
+• Phase 2
+::: 11/09 hotfix ::: Onyxia will shoot Fireballs from above to the target with the current highest threat and any player hit within the 8 yards radius explosion will see their threat fully reset, including the primary target of the fireball. This means it is pretty much impossible for the main tank of phase 1 to maintain his threat during phase 2 in a split run since several fireballs will be fired at the raid.
+
+• Phase 3
+::: 11/09 hotfix ::: Gnomish Cloaking Device does not drop combat for the user anymore and as a result does not reset their threat either. It can no longer be used as a vanish and is now useless for Onyxia.
+
+===============================================================================
+
+Hit Rating
+
+When gearing for threat, your first goal is to reach your hit cap for consistency, which is 6% with 305 weapon skill. You can achieve 6% with a variety of different gear pieces.
+
+As a tank, you should always carry multiple gear options and mix and match threat and mitigation gear based on your group's needs.
+
+You only need as much threat gear as required to stay on top of the second person, with a good enough lead to anticipate execute phase. A massive threat lead is useless and only puts more pressure on your healers for no good reason.
+
+===============================================================================
+
+Rotaion 1
+1. Shield bash (always on GCD)
+2. Revenge
+3. Sunder Armor (as many as you can before #1 and #2 CD's are over)
+4. Heroic Strike (if you have a lot of range use HS)
+
+Repeat 1-3. Keep adding sunders to raise threat.
+
+===============================================================================
+    
