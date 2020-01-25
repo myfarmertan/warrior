@@ -96,5 +96,25 @@ Rotaion 1
 
 Repeat 1-3. Keep adding sunders to raise threat.
 
+Cleave can help build threat on multiple mobs if main target threat is sufficent. Cleave does not generate extra threat like heroic strike does. It only builds damage threat.
+
+Abilitys that do AOE threat are Battle Shout, Demo Shout, and Thunderclap.
+
 ===============================================================================
-    
+
+1-Click Tanking macro to start fights
+
+#showtooltip
+ /cast [stance:1] Charge
+ /stopcasting
+ /cast [harm,stance:1] Bloodrage
+ /cast [stance:1] Defensive Stance
+ /stopcasting
+ /cast [nocombat,nostance:1] Battle Stance
+ /stopcasting
+ /cast [mod:shift,stance:2] Taunt
+ /cast [combat,stance:2] Sunder Armor
+ 
+ 
+===============================================================================
+
