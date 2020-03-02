@@ -118,3 +118,93 @@ Abilitys that do AOE threat are Battle Shout, Demo Shout, and Thunderclap.
  
 ===============================================================================
 
+Warrior Tanking Guide
+
+Vanilla tanking can be a bit confusing coming from retail since so much has changed since then, I'll try and make a guide to break down the basics of 5 man tanking for you if I can.
+
+I will go into the mechanics of threat and abilities a bit so if you just want a quick step by step; skip to the tl;dr.
+
+
+1. Defensive Stance
+
+The stance you are in affects how much threat you deal, Battle and Berserker Stance both give your threat a x0.8 multiplyer, meaning if you do something that causes 100 raw threat, it will only cause 80 in these stances.
+
+Defensive Stance on the other hand has a x1.3 multiplyer, so that 100 threat is now 130.
+
+While there are some benifits to the other stances, they are usually specific to only a few situations, and more advanced techniques you would mainly need when raiding; so in general you want to ignore the other stances as they will only complicate things for little benefit (the main exception to this rule is using Mocking Blow which I will go into a bit more detail about later).
+
+
+2. The Pull
+
+As a tank you should always be the one to pull, the reasons for this are twofold:
+
+Firstly, and most obvious, the mobs attack you first which makes them easy to group together and the damage that they do will be giving you rage right away.
+
+Secondly, the mechanics of pulling aggro from someone are that you need to cause 10-30% (10% in melee, 30% ranged) more threat than the person at the top of the mobs hate list. If you are the first to pull then you are instantly at the top of the hate list and everyone else needs to do at least 10% more threat than you to gain aggro.
+
+It's always best to pull with your ranged weapon if possible, this way you can always pull to a safe position and minimise the risk of other packs getting aggroed by accident.
+
+Lastly when you have pulled the first thing you want to do is activate bloodrage, gaining rage causes threat at a rate of 5 threat per 1 rage so you are instantly putting out threat before the mobs have even reached you and you have some rage to start using your skills right away.
+
+
+3. Rotations
+
+So you have pulled the pack and hit bloodrage. Nine times out of ten the next step is to shield block, this means you will almost certainly block the first hit and in doing so let you use your most powerful threat generating ability, Revenge.
+
+Revenge is both the most efficient threat ability you have, even including the cost of shield block, and the highest threat generating ability outside of Shield Slam. You should use Revenge on the main target, on cooldown; using shield block to proc it where necessary.
+
+Next is Sunder Armor, this is your bread and butter threat spam skill. You generally want to put one or two Sunders on the main target after Revenge just to put you ahead of the DPS. Heroic strike shouldnt be used at all unless you are generating rage faster then you are able to spend it with Sunder, which won't be often in 5 mans.
+
+At this point you need to start thinking about generating threat on the adds.
+
+Contrary to popular belief, Thunderclap is actually a poor choice for AoE threat in vanilla, Battle Shout is almost always the better option.
+
+In vanilla Battle Shout does 55 threat per person buffed (so 275 in a 5 man party), split between all mobs; compared to 130 split plus the damage caused per mob with Thunderclap. When you add in the multipliers for being in battle (0.8) or defensive (1.3) stance that changes to 375 for Battle Shout Vs 104+(damage*0.8) for Thunderclap. Thunderclap also costs 20 rage compared to Battle Shout's 10 rage so you can get two shouts to one clap.
+
+In addition to this since Battle Shout is a buff it causes no damage so it doesn't break CC and has full threat at any range from the mobs since it is affecting your allies rather than the mobs directly, while Thunderclaps damage can break CC and only causes threat to the mobs hit by the skill.
+
+A Battle Shout or two will build up some initial threat on all mobs, giving you time to start cycling through the adds; solidifying your threat with sunders.
+
+So your average rotation will look something like Bloodrage>Shield Block>Revenge MT>Sunder MT> Battle Shout x1-2> Sunder adds one at a time, switching to Revenge MT whenever it's up, with extra Sunders on the main target as needed. There will be deviations depending on the situation of course, for example if you need to gather up caster mobs with Shield Bash, but this is the general order you want to go with.
+
+
+4. Managing Your Group
+
+The hardest part of tanking is generally trying to stop your group from doing stupid shit. :)
+
+From the high damage DPS with no concept of threat management or crowd control mechanics, to the healers who think that they need to keep everyone at 100% at all times, no matter how well you play you will lose aggro to these people and it will always be your fault. Always.
+
+Taunt is your go to skill for these situations, it works by giving you threat equal to the highest person on the monsters hate list (so if you have aggro already it does nothing in that regard) and forces the monster to attack you for a time. During that time you need to build your threat up quickly so that the mob doesnt just switch back after the taunt ends.
+
+The temptation is to taunt as soon as you lose aggro but say a DPS gets aggro, takes some hits and you taunt it back, then your healer throws a big heal on the DPS and gains aggro instead, the cooldown on taunt will seem like an eternity at that point. You should generally save taunt for when your healer gets aggro since a dead DPS is a slower fight but a dead healer is a wipe.
+
+If you think the healer is safe you can taunt but sometimes it is better to let a DPS take a couple of hits to help them remember that they need to manage their threat as much as you need to manage yours. :)
+
+You also have Mocking Blow in Battle Stance if your taunt wasnt enough or was resisted, and Challenging Shout, the AoE taunt, if things are looking really grim. binding both to a key is very useful and putting Mocking Blow in the same position on your Battle Stance bar as Taunt is on your Defensive Stance bar lets muscle memory aid you when switching to Battle Stance.
+
+As others have already mentioned, using the icons to mark targets (skull, etc.) can help greatly in keeping the group on the right target and keeping CC from being broken, so where possible you want to do this or at least try and get the group leader to do it.
+
+Also another piece of great advice already mentioned is getting a threat meter addon as this can give you pre-warning of losing aggro, and makes you aware those in the group with poor aggro management.
+
+There are a lot of other little points but I think this has gotten pretty huge already so I will leave it at that, I hope this helps you!
+
+
+tl;dr:
+
+    -(Almost) Always be in Defensive Stance.
+
+    -Always be the one to pull.
+
+    -Pull from range to a safe spot.
+
+    -Skill order after pulling is generally Bloodrage>Shield Block>Revenge Main Target> Sunder MT x1-2> Battle Shout x1-2> then cycle through adds putting a Sunder on each, while using Revenge on MT whenever you can plus the odd Sunder.
+
+    -Try and save taunt for pulling aggro from your healer.
+
+    -Try and manage your group by calling targets.
+
+    -Get a threat meter addon.
+    
+    
+===============================================================================
+
